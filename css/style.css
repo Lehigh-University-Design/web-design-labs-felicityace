@@ -127,12 +127,12 @@ h1 {
   }
   
   .post span {
-    color: coral;
+    color: rgb(115, 80, 255);
   }
   
   .block-div, .block {
     display: block;
-    color: coral;
+    color: rgb(80, 89, 255);
     border: 1px solid var(--dark-color);
     padding: 1em;
   }
@@ -169,7 +169,7 @@ h1 {
     right: 1em;
     width: 200px;
     padding: 1em;
-    background-color: coral;
+    background-color: rgb(167, 133, 225);
     border: 1px solid var(--dark-color);
   }
   
@@ -194,7 +194,7 @@ h1 {
     left: 50%;
     width: 100px;
     height: 100px;
-    background: coral;
+    background: rgb(147, 80, 255);
     border-radius: 50px;
     transform: translate(-50%, -50%); /* This is a shorthand of translateX(-50%) and translateY(-50%) */
   }
