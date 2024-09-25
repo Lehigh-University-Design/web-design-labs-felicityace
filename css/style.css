@@ -150,7 +150,7 @@ h1 {
     text-transform: uppercase;
     padding: 0.2em 0.8em;
     color: var(--dark-color) !important;
-    background-color: coral;
+    background-color: rgb(249, 186, 246);
     transform: rotate(-8deg);
     font-weight: 800;
     font-variation-settings:
@@ -169,7 +169,7 @@ h1 {
     right: 1em;
     width: 200px;
     padding: 1em;
-    background-color: rgb(167, 133, 225);
+    background-color: rgb(249, 186, 246);
     border: 1px solid var(--dark-color);
   }
   
@@ -212,7 +212,7 @@ h1 {
   }
   
   .sticky-bit {
-    background-color: coral;
+    background-color: rgb(80, 133, 255);
     position: sticky;
     top: 0;
     padding: 1em;
@@ -253,9 +253,9 @@ h1 {
       font-size: 2em;
       font-weight: 100;
       font-style: italic;
-      background-color: hsl(16, 100%, 66%);
+      background-color: hsl(221, 82%, 87%);
       &:nth-child(even){
-        background-color: hsl(16, 100%, 44%);
+        background-color: hsl(233, 87%, 58%);
       }
     }
   
