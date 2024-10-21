@@ -405,3 +405,34 @@ h1 {
     display: grid;
     place-content: center; /*start, center, end (shorthand for justify-content with align-content)*/
   }
+
+  .flex-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .flex-card {
+    width: calc(100%/3);
+  }
+  
+  .flex-card-inner {
+    margin: 1em;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    background-color: beige;
+    flex-direction: column;
+    text-align: center;
+    h4{
+      background-color: black;
+      display: inline-block;
+      color: #fff;
+      padding: .25em;
+    }
+    img {
+      border-radius: 50%;
+    }
+  }
+
+  
